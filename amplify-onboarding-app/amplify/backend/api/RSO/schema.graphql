@@ -1,0 +1,17 @@
+type Employee @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstName: String!
+  middleName: String!
+  lastName: String!
+  position: String!
+  homeAddress: String!
+  birthDate: AWSDate!
+  startDate: AWSDate!
+  weight: String!
+  height: String!
+  hairColor: String!
+  eyeColor: String!
+  deputyOrCivilian: String!
+  profilePhoto: String
+}
+ 
